@@ -6,7 +6,7 @@
     <authors>KDD Digital HealthCare GmbH</authors>
     <owners>KDD Digital HealthCare GmbH</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This package contains useful controls for Xamarin.Forms framework by KDD company</description>
+    <description>This package contains useful controls for Xamarin.Forms framework created by KDD developers</description>
     <projectUrl>https://github.com/KDD-Digital-Healthcare-GmbH/Kdd.UIKit</projectUrl>
     <license type="expression">MIT</license>
     <copyright>Copyright 2020</copyright>
