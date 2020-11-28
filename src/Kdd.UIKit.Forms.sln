@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kdd.UIKit.Forms", "Kdd.UIKit.Forms\Kdd.UIKit.Forms.csproj", "{0A990B58-E936-43C5-B5CF-7E6F01A1D679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kdd.UIKit.Forms.Droid", "Kdd.UIKit.Forms.Droid\Kdd.UIKit.Forms.Droid.csproj", "{159EFBCB-C644-453C-AE2F-ADA76D03B3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kdd.UIKit.Forms.Ios", "Kdd.UIKit.Forms.Ios\Kdd.UIKit.Forms.Ios.csproj", "{2A2BB815-8353-4F43-944F-450424865353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{85A7AE0E-FDE3-4319-B9DF-493F4BD39529}"
+	ProjectSection(SolutionItems) = preProject
+		Kdd.UIKit.Forms.nuspec = Kdd.UIKit.Forms.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A990B58-E936-43C5-B5CF-7E6F01A1D679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A990B58-E936-43C5-B5CF-7E6F01A1D679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A990B58-E936-43C5-B5CF-7E6F01A1D679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A990B58-E936-43C5-B5CF-7E6F01A1D679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159EFBCB-C644-453C-AE2F-ADA76D03B3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159EFBCB-C644-453C-AE2F-ADA76D03B3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159EFBCB-C644-453C-AE2F-ADA76D03B3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159EFBCB-C644-453C-AE2F-ADA76D03B3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2BB815-8353-4F43-944F-450424865353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2BB815-8353-4F43-944F-450424865353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2BB815-8353-4F43-944F-450424865353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2BB815-8353-4F43-944F-450424865353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E91FD8E-7074-4B67-95B6-37F247B07970}
+	EndGlobalSection
+EndGlobal

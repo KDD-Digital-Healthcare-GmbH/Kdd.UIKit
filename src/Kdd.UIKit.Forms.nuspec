@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Kdd.UIKit.Forms</id>
+    <version>1.0.0</version>
+    <authors>KDD Digital HealthCare GmbH</authors>
+    <owners>KDD Digital HealthCare GmbH</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains useful controls for Xamarin.Forms framework by KDD company</description>
+    <projectUrl>https://github.com/KDD-Digital-Healthcare-GmbH/Kdd.UIKit</projectUrl>
+    <license type="expression">MIT</license>
+    <copyright>Copyright 2020</copyright>
+   <dependencies>
+      <group targetFramework="MonoAndroid10.0">
+        <dependency id="Xamarin.Forms" version="4.8.0.1687" />
+        <dependency id="Kdd.Common" version="1.0.6" />
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+        <dependency id="Xamarin.Forms" version="4.8.0.1687" />
+        <dependency id="Kdd.Common" version="1.0.6" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Xamarin.Forms" version="4.8.0.1687" />
+        <dependency id="Kdd.Common" version="1.0.6" />
+      </group>
+   </dependencies>
+  </metadata>
+<files>
+  <!-- MonoAndroid 10.0 -->
+  <file src="Kdd.UIKit.Forms.Droid/bin/Release/Kdd.UIKit.Forms.Droid.dll"  target="lib/MonoAndroid10.0/Kdd.UIKit.Forms.Droid.dll" />
+  <file src="Kdd.UIKit.Forms.Droid/bin/Release/Kdd.UIKit.Forms.Droid.pdb"  target="lib/MonoAndroid10.0/Kdd.UIKit.Forms.Droid.pdb" />
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.dll" target="lib/MonoAndroid10.0/Kdd.UIKit.Forms.dll" />
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.pdb" target="lib/MonoAndroid10.0/Kdd.UIKit.Forms.pdb" />
+
+  <!-- Xamarin.iOS10.0 -->
+  <file src="Kdd.UIKit.Forms.Ios/bin/Release/Kdd.UIKit.Forms.Ios.dll"  target="lib/Xamarin.iOS10/Kdd.UIKit.Forms.Ios.dll" />
+  <file src="Kdd.UIKit.Forms.Ios/bin/Release/Kdd.UIKit.Forms.Ios.pdb"  target="lib/Xamarin.iOS10/Kdd.UIKit.Forms.Ios.pdb" />
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.dll" target="lib/Xamarin.iOS10/Kdd.UIKit.Forms.dll" />
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.pdb" target="lib/Xamarin.iOS10/Kdd.UIKit.Forms.pdb" />
+
+  <!-- .NETStandard2.1 -->
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.dll" target="lib/netstandard2.1/Kdd.UIKit.Forms.dll" />
+  <file src="Kdd.UIKit.Forms/bin/Release/netstandard2.1/Kdd.UIKit.Forms.pdb" target="lib/netstandard2.1/Kdd.UIKit.Forms.pdb" />
+</files>
+</package>
