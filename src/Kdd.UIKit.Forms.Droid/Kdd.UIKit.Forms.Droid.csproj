@@ -51,6 +51,7 @@
     <Compile Include="Controls\FormsSeekBar.cs" />
     <Compile Include="Extensions\DrawableExtensions.cs" />
     <Compile Include="FormsResourceManager.cs" />
+    <Compile Include="UIKitInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kdd.UIKit.Forms\Kdd.UIKit.Forms.csproj">

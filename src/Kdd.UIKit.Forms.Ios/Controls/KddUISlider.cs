@@ -3,6 +3,7 @@ using UIKit;
 
 namespace Kdd.UIKit.Forms.Ios.Controls
 {
+    // TODO Fix offsets for default values, make it adjustable as we have on Android
     public class KddUISlider : UISlider
     {
         protected const float TrackY = 0;

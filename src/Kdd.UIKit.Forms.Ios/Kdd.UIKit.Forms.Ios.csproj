@@ -44,6 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controls\KddUISlider.cs" />
     <Compile Include="Renderers\SafeSliderRenderer.cs" />
+    <Compile Include="UIKitInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kdd.UIKit.Forms\Kdd.UIKit.Forms.csproj">
