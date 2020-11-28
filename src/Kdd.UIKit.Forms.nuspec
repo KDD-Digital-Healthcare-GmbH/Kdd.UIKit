@@ -13,15 +13,18 @@
    <dependencies>
       <group targetFramework="MonoAndroid10.0">
         <dependency id="Xamarin.Forms" version="4.8.0.1687" />
-        <dependency id="Kdd.Common" version="1.0.6" />
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" />
+        <dependency id="Kdd.Common" version="1.0.7" />
       </group>
       <group targetFramework="Xamarin.iOS10">
         <dependency id="Xamarin.Forms" version="4.8.0.1687" />
-        <dependency id="Kdd.Common" version="1.0.6" />
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" />
+        <dependency id="Kdd.Common" version="1.0.7" />
       </group>
       <group targetFramework=".NETStandard2.1">
         <dependency id="Xamarin.Forms" version="4.8.0.1687" />
-        <dependency id="Kdd.Common" version="1.0.6" />
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" />
+        <dependency id="Kdd.Common" version="1.0.7" />
       </group>
    </dependencies>
   </metadata>

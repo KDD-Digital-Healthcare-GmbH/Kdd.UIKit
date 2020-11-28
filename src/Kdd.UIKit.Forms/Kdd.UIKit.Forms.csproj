@@ -4,7 +4,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
-    <PackageReference Include="Kdd.Common" Version="1.0.4" />
+    <PackageReference Include="Kdd.Common" Version="1.0.7" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
