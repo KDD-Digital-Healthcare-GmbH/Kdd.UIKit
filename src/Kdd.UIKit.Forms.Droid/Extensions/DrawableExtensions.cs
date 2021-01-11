@@ -1,5 +1,6 @@
 ﻿using Android.Graphics;
 using Android.Graphics.Drawables;
+using AndroidX.Core.Graphics;
 using AndroidX.Core.Graphics.Drawable;
 using Xamarin.Forms.Platform.Android;
 using FormsColor = Xamarin.Forms.Color;
@@ -18,7 +19,7 @@ namespace Kdd.UIKit.Forms.Droid.Extensions
 			return DrawableCompat.GetColorFilter(drawable);
 		}
 
-		public static void SetColorFilter(this Drawable drawable, FormsColor color, ColorFilter defaultColorFilter, BlendMode mode)
+		public static void SetColorFilter(this Drawable drawable, FormsColor color, ColorFilter defaultColorFilter, BlendModeCompat mode)
 		{
 			if (drawable is null)
 			{
@@ -37,7 +38,7 @@ namespace Kdd.UIKit.Forms.Droid.Extensions
 				return;
 			}
 
-			var colorFilter = new BlendModeColorFilter(color.ToAndroid(), mode);
+			var colorFilter = BlendModeColorFilterCompat.CreateBlendModeColorFilterCompat(color.ToAndroid(), mode);
 			drawable.SetColorFilter(colorFilter);
 		}
 	}

@@ -1,10 +1,10 @@
-﻿
-using Android.Content;
+﻿using Android.Content;
 using Android.Content.Res;
 using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Views;
 using Android.Widget;
+using AndroidX.Core.Graphics;
 using Kdd.Common;
 using Kdd.Common.Extensions;
 using Kdd.UIKit.Forms.Controls;
@@ -258,7 +258,7 @@ namespace Kdd.UIKit.Forms.Droid.Renderers
             var thumbImage = Element.ThumbImageSource;
             if (thumbImage is null || thumbImage.IsEmpty)
             {
-                Thumb.SetColorFilter(Element.ThumbColor, _defaultThumbColorFilter, BlendMode.SrcIn);
+                Thumb.SetColorFilter(Element.ThumbColor, _defaultThumbColorFilter, BlendModeCompat.SrcIn);
                 return;
             }
             
