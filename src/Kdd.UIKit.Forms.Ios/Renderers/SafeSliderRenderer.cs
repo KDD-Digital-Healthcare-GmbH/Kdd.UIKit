@@ -127,6 +127,7 @@ namespace Kdd.UIKit.Forms.Ios.Renderers
 
             var thumbImage = CreateUIImage(Element.ThumbImageSource);
             Control?.SetThumbImage(thumbImage, UIControlState.Normal);
+            Control?.SetThumbImage(thumbImage, UIControlState.Highlighted);
             ((IVisualElementController)Element).NativeSizeChanged();
         }
 
